@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NETWORK SIM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 48px;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px #00000088;
+      border-bottom: 2px solid #ffffff33;
+      padding-bottom: 10px;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .video-container {
+      position: relative;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #00000055;
+    }
+
+    .link-box {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ffffffdd;
+      color: #000;
+      text-align: center;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 0 5px #00000044;
+      width: 200px;
+      transition: background-color 0.2s;
+    }
+
+    .link-box:hover {
+      background-color: #f0f0f0;
+    }
+
+    .display-box {
+      width: 300px;
+      height: 300px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #ffffffee;
+      color: #000;
+      overflow-y: auto;
+      box-shadow: 0 0 8px #00000055;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>NETWORK SIM</h1>
+
+  <div class="main-container">
+    <div class="video-container">
+      <video controls>
+        <source src="Netwro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <a href="https://bit.ly/43mzneg" target="_blank" class="link-box">Link to GitHub</a>
+    </div>
+
+    <div class="display-box">
+(Network Simulation in Cisco Packet Tracer)
+
+Modeling an attendance system where students can log attendance records via a centralized HTTP server.
+
+Key Components:
+- Router 1: Routes internal network traffic
+- Switch: Connects all local devices (PCs, Admins, Server)
+- Server 0: Hosts the attendance web service
+- PCs: Represent student and staff clients accessing the system
+- Admin PC: Has privileged access for record management
+    </div>
+  </div>
+
+</body>
+</html>
